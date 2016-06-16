@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="2b0e02d0-c7cb-4d8f-8859-c7196615fcbb" Version="1.0.7.0" Publisher="CN=TechnohowMakhluApp" />
+  <Identity Name="2b0e02d0-c7cb-4d8f-8859-c7196615fcbb" Version="1.0.0.0" Publisher="CN=TechnohowMakhluApp" />
   <mp:PhoneIdentity PhoneProductId="2b0e02d0-c7cb-4d8f-8859-c7196615fcbb" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>ScheduleBoard</DisplayName>
+    <DisplayName>MTCScheduleBoardUWP</DisplayName>
     <PublisherDisplayName>Maxim Khlupnov</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
@@ -16,10 +16,7 @@
   <Applications>
     <Application Id="App" StartPage="default.html">
       <uap:VisualElements DisplayName="MTCScheduleBoardUWP" Description="MTCScheduleBoardUWP" BackgroundColor="transparent" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png">
-          <uap:ShowNameOnTiles>
-            <uap:ShowOn Tile="wide310x150Logo" />
-          </uap:ShowNameOnTiles>
+        <uap:DefaultTile Wide310x150Logo="images\logo_310_150.png" DefaultSize="wide310x150Logo">
         </uap:DefaultTile>
         <uap:SplashScreen Image="images\splashscreen.png" BackgroundColor="#22bdef" />
       </uap:VisualElements>
@@ -33,6 +30,6 @@
     <Capability Name="internetClient" />
     <Capability Name="privateNetworkClientServer" />
     <Capability Name="internetClientServer" />
-    <uap:Capability Name="enterpriseAuthentication" />
+    <Capability Name="enterpriseAuthentication" />
   </Capabilities>
 </Package>
