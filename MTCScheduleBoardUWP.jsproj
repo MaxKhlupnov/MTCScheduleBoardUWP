@@ -91,6 +91,7 @@
     <Content Include="js\jquery.tmpl.min.js" />
     <Content Include="js\js\Interactivity.1.0.js" />
     <Content Include="js\SettingsFlyout-Design.js" />
+    <Content Include="js\Telerik\ui.js" />
     <Content Include="js\ToastHelper.js" />
     <Content Include="lib\winjs-2.0\base.js" />
     <Content Include="lib\winjs-2.0\en-us\base.strings.js" />
