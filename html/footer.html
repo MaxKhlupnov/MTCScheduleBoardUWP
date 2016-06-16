@@ -1,0 +1,36 @@
+﻿<!-- Copyright (c) Microsoft Corporation. All rights reserved. -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>        
+        <title></title>
+    	<style type="text/css">
+        	#MtcLogo {
+				float:right;
+        	}
+            #DateAndTime {
+                float: left;
+            }
+             #ClockControl, #DateControl {                
+                font-family: 'Segoe UI';
+                font-size: 72pt;
+                padding-left: 25px;
+            }           
+                #ClockControl .Hours, #ClockControl .Mins {
+                   /* text-shadow: 0.1em 0.1em 0.15em #333;*/
+                }	
+    	</style>		
+		<script src="/js/Footer.js"> </script>       
+    </head>
+    <body>        
+        <div id="footerText">
+            <div id="DateAndTime">
+                <span id="DateControl" data-win-control="MtcScheduleBoard.UI.DateControl"></span>
+                <span id="ClockControl" data-win-control="MtcScheduleBoard.UI.ClockControl"></span>
+            </div>
+            <div id="MtcLogo">
+                <img id="footerLogo" src="/images/MTC_Tile_Transparent.png" alt="MTC Logo" />
+			</div>
+                
+        </div>
+    </body>
+</html>
